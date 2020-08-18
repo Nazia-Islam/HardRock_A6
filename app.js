@@ -14,7 +14,6 @@ searchButton.addEventListener('click', function(){
             const artist = searchList.data[i].artist.name;
             const songTitle = searchList.data[i].title;
             const img = searchList.data[i].artist.picture_small;
-            console.log(songTitle+" Albym by "+artist);
             const songItem = document.getElementById('songItem');
 
             songItem.innerHTML +=   `<div class="single-result row align-items-center my-3 p-3">
